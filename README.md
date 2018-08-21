@@ -1,5 +1,5 @@
 # Collection of Hyperdimensional Computing Projects
-Here, we aim to provide a comprehensive collection of projects using hyperdimensional computing. Please let us know if you have a related project.
+Here, we aim to provide a comprehensive collection of projects using hyperdimensional computing. Please let us know if you have any related project.
 
 ## Introduction to Hyperdimensional Computing
 The way the brain works suggests that rather than working with numbers that we are used to, computing with hyperdimensional (HD) vectors, e.g., 10,000 bits is more efficient. Computing with HD vectors, referred to as “*hypervectors*,” offers a general and scalable model of computing as well as well-defined set of arithmetic operations that can enable fast and one-shot learning (no need of back-propagation like in neural networks). Furthermore it is memory-centric with embarrassingly parallel operations and is extremely robust against most failure mechanisms and noise. 
