@@ -9,7 +9,7 @@ Hypervectors are high-dimensional (e.g., 10,000 dimensions), they are (pseudo)ra
 * [High-dimensional Computing as a Nanoscalable Paradigm](https://iis-people.ee.ethz.ch/~arahimi/papers/TCAS17.pdf)
 * [Vector Symbolic Architectures Answer Jackendoff's Challenges for Cognitive Neuroscience](https://arxiv.org/abs/cs/0412059)
 * [Pentti Kanerva. 1988. Sparse Distributed Memory. MIT Press, Cambridge, MA, USA](https://mitpress.mit.edu/books/sparse-distributed-memory)
-* [Chris Eliasmith. 2013. How to Build a Brain: A Neural Architecture for Biological Cognition. Oxford University Press](http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199794546.001.0001/acprof-9780199794546)
+* [Chris Eliasmith. 2013. How to Build a Brain: A Neural Architecture for Biological Cognition. Oxford University Press, Oxford, UK](http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199794546.001.0001/acprof-9780199794546)
 * [Tony A. Plate. 2003. Holographic Reduced Representation: Distributed Representation for Cognitive Structures. CSLI Publications, Stanford, CA, USA](https://dl.acm.org/citation.cfm?id=862031)
 
 
