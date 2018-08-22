@@ -6,10 +6,12 @@ The way the brain works suggests that rather than working with numbers that we a
 Hypervectors are high-dimensional (e.g., 10,000 dimensions), they are (pseudo)random with independent identically distributed components and holographically distributed (i.e., not microcoded). Hypervectors can use various coding: dense or sparse, bipolar, binary, real and can be combined using arithmetic operations such as multiplication, addition, and permutation. The vectors can be compared for similarity using distance metrics.
 ### Useful Reading
 * [Hyperdimensional Computing: An Introduction to Computing in Distributed Representation with High-Dimensional Random Vectors](http://redwood.berkeley.edu/vs265/kanerva09-hyperdimensional.pdf) 
-* [Pentti Kanerva. 1988. Sparse Distributed Memory. MIT Press, Cambridge, MA, USA](https://mitpress.mit.edu/books/sparse-distributed-memory)
 * [High-dimensional Computing as a Nanoscalable Paradigm](https://iis-people.ee.ethz.ch/~arahimi/papers/TCAS17.pdf)
-* [How to Build a Brain](http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199794546.001.0001/acprof-9780199794546)
+* [Vector Symbolic Architectures Answer Jackendoff's Challenges for Cognitive Neuroscience](https://arxiv.org/abs/cs/0412059)
+* [Pentti Kanerva. 1988. Sparse Distributed Memory. MIT Press, Cambridge, MA, USA](https://mitpress.mit.edu/books/sparse-distributed-memory)
+* [Chris Eliasmith. 2013. How to Build a Brain: A Neural Architecture for Biological Cognition. Oxford University Press](http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199794546.001.0001/acprof-9780199794546)
 * [Tony A. Plate. 2003. Holographic Reduced Representation: Distributed Representation for Cognitive Structures. CSLI Publications, Stanford, CA, USA](https://dl.acm.org/citation.cfm?id=862031)
+
 
 ## European language recognition
 * **Task:** European language recognition from letter *n*-grams
