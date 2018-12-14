@@ -20,7 +20,7 @@ Hypervectors are high-dimensional (e.g., 10,000 dimensions), they are (pseudo)ra
 * **Remarks:** One-/few-shot learning from seizures with higher accuracy than SVM and MLP; linearly scalable to large number of electrodes; lower memory footprint
 * [**Link to code**](http://ieeg-swez.ethz.ch)
 
-##  An Energy-Efficient Seizure Detection Algorithm for Long-term Human Intracranial EEG (iEEG) 
+##  Energy-Efficient Seizure Detection for Long-term Human Intracranial EEG (iEEG) 
 * **Task:** The main idea of this algorithm is to combine local binary patterns (LBP) with hyperdimensional (HD) computing followed by a patient-specific postprocessing to learn and detect seizures from intracranial electroencephalography (iEEG)
   * Input: 24 to 128 implanted iEEG electrodes
   * Output: Binary classification (interictal vs. ictal states)
