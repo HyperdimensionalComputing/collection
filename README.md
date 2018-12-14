@@ -77,7 +77,7 @@ Hypervectors are high-dimensional (e.g., 10,000 dimensions), they are (pseudo)ra
 * **Task:** Multiclass learning and inference using motor-imagery based brain–computer interface (MI-BCI) from electroencephalography (EEG) signals
   * Input: 16 EEG electrodes, and 22 EEG electrodes
   * Output: Multicalss classification (3 classes, and 4 classes)
-* **Implementation:** Pythong
+* **Implementation:** Python
 * **Remarks:** ~26x faster training time, and ~22x lower energy 
 * [**Link to code**](https://github.com/MHersche/HDembedding-BCI)
  
