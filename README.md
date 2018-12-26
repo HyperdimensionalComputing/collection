@@ -1,8 +1,9 @@
 
-<head>
-<meta name="keywords" content="hyperdimensional computing,approximate computing,variability tolerance" >
-</head>
-
+<!--
+  Title: Awesome Regex
+  Description: A curated list of amazingly awesome regex resources.
+  Author: aloisdg
+  -->
           
 # Collection of Hyperdimensional Computing Projects
 Here, we aim to provide a comprehensive collection of projects using hyperdimensional computing. Please let us know if you have any related project.
