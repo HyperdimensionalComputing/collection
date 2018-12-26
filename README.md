@@ -1,17 +1,7 @@
 
-<html>
 <head>
-  
-<title>Abbas Rahimi, Postdoctoral Fellow</title>
-<meta name="keywords" content="abbas rahimi,hyperdimensional computing,approximate computing,variability tolerance" />
-
-
-
-
+<meta name="keywords" content="hyperdimensional computing,approximate computing,variability tolerance" >
 </head>
-
-</html>
-
 
 # Collection of Hyperdimensional Computing Projects
 Here, we aim to provide a comprehensive collection of projects using hyperdimensional computing. Please let us know if you have any related project.
