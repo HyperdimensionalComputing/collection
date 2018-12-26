@@ -1,11 +1,14 @@
 
-
 <html>
 <head>
-  <title>Page Title</title>
-</head>
+  
+<title>Abbas Rahimi, Postdoctoral Fellow</title>
+<meta name="keywords" content="abbas rahimi,hyperdimensional computing,approximate computing,variability tolerance" />
 
-<meta name='keywords' content='regex, regular expressions, regexp'>
+
+
+
+</head>
 
 </html>
 
