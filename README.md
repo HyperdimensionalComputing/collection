@@ -2,12 +2,7 @@
 <head>
 <meta name="keywords" content="hyperdimensional computing,approximate computing,variability tolerance" >
 </head>
-Title:    A Sample MultiMarkdown Document  
-Author:   Fletcher T. Penney  
-Date:     February 9, 2011  
-Comment:  This is a comment intended to demonstrate  
-          metadata that spans multiple lines, yet  
-          is treated as a single value.  
+
           
 # Collection of Hyperdimensional Computing Projects
 Here, we aim to provide a comprehensive collection of projects using hyperdimensional computing. Please let us know if you have any related project.
