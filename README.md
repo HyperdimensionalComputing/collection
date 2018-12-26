@@ -21,58 +21,55 @@ Hypervectors are high-dimensional (e.g., 10,000 bits), they are (pseudo)random w
   * Output: Binary classification (interictal vs. ictal states)
 * **Implementation:** Matlab and Python
 * **Remarks:** One-/few-shot learning from seizures with higher accuracy than SVM and MLP; linearly scalable to large number of electrodes; lower memory footprint
-* [**Link to code**](http://ieeg-swez.ethz.ch)
+* [**Link to code and FREE dataset**](http://ieeg-swez.ethz.ch)
+* [link to paper](https://www.research-collection.ethz.ch/handle/20.500.11850/305686)
 
 
 ##  Energy-Efficient Seizure Detection for Long-term Human Intracranial EEG (iEEG) 
-* **Project specification:** The main idea of this algorithm is to combine local binary patterns (LBP) with hyperdimensional (HD) computing followed by a patient-specific postprocessing to learn and detect seizures from intracranial electroencephalography (iEEG)
+* **Project specification:** Designing an energy-efficient algorithm for long-term iEEG monitoring. The main idea of this algorithm is to combine local binary patterns (LBP) with hyperdimensional (HD) computing followed by a patient-specific postprocessing to learn and detect seizures from intracranial electroencephalography (iEEG)
   * Input: 24 to 128 implanted iEEG electrodes
   * Output: Binary classification (interictal vs. ictal states)
 * **Implementation:** Python, OpenMP, Verilog
 * **Remarks:** No false alarms over 1357 hours of testing; Lower number of undetected seizures, false alarms (to zero), execution time, and energy consumption for classification on a TX2 embedded device compared to support vector machine (SVM), convolutional neural network (CNN), and long short-term memory recurrent neural network (LSTM); Fast learning from one or two seizure examples.
-* [**Link to code**](http://ieeg-swez.ethz.ch)
+* [**Link to code and largest iEEG datset**](http://ieeg-swez.ethz.ch)
+* [link to paper](https://www.research-collection.ethz.ch/handle/20.500.11850/307983)
 
 
-## Hand Gesture Recognition from Electromyography (EMG) Signals
-* **Project specification:** A smart prosthetic application, namely hand gesture recognition from a stream of EMG sensors
+##  An EMG Gesture Recognition System with Flexible High-Density Sensors 
+* **Project specification:** Design and development of an embedded system using a large-area, high-density EMG sensor array for robust hand gesture recognition
+  * Input: 64 EMG electrodes
+  * Ouput: 5 classes as different hand gestures
+* **Implementation:** Matlab and C
+* **Remarks:** One-shot learning; higher accuracy than SVM
+* [**Link to code and dataset**](https://github.com/a-moin/flexemg)
+* [**System Demo**](https://bwrc.eecs.berkeley.edu/sites/default/files/files/u2630/flexemg_v2_lq.mp4#t=2)
+* [link to paper](https://iis-people.ee.ethz.ch/~arahimi/papers/ISCAS18.pdf)
+
+
+## Hand Gesture Recognition using Electromyography (EMG) Signals
+* **Project specification:** Designing an algorithm for hand gesture recognition from a stream of EMG sensors for a smart prosthetic application
   * Input: EMG signals from 4 channels
   * Output: 5 classes as different hand gestures
 * **Implementation:** Matlab
 * **Remarks:** ~3x less training data; higher accuracy than SVM
-* [**Link to code**](https://github.com/abbas-rahimi/HDC-EMG)
+* [**Link to code and dataset**](https://github.com/abbas-rahimi/HDC-EMG)
+* [link to paper](https://iis-people.ee.ethz.ch/~arahimi/papers/ICRC16.pdf)
 
 
-## Hand Gesture Recognition from Flexible EMG Sensors 
-* **Project specification:** An end-to-end system using a large-area, high-density EMG sensor array for robust hand gesture recognition
-  * Input: 64 EMG electrodes
-  * Ouput: 5 classes as different hand gestures
-* **Implementation:** Matlab
-* **Remarks:** One-shot learning; higher accuracy than SVM
-* [**Link to code**](https://github.com/a-moin/flexemg)
-* [**System Demo**](https://bwrc.eecs.berkeley.edu/sites/default/files/files/u2630/flexemg_v2_lq.mp4#t=2)
-
-
-## An Accelerator of HD Computing on a Parallel Ultra-Low Power Platform
+## An Accelerator for HD Computing on a Parallel Ultra-Low Power Platform
 * **Project specification:** HD computing's acceleration on a silicon prototype of the PULPv3 4-core chip (1.5 mm2, 2 mW) with optimization of memory accesses and operations
 * **Implementation:** C (for ARM Cortex M4 processors) and OpenMP (for multi-core processors)
 * **Remarks:** Simultaneous 3.7× end-to-end speed-up and 2× energy saving compared to its single-core execution
 * [**Link to code**](https://github.com/fabio-montagna/PULP-HD)
-
+* [**Demo**](https://www.youtube.com/watch?v=rjaw0LTqZZg)
+* [link to paper](https://iis-people.ee.ethz.ch/~arahimi/papers/DAC18.pdf)
 
 ## FPGA Optimizations of Dense Binary HD Computing
 * **Project specification:** Hardware techniques for optimizations of HD computing, in a synthesizable VHDL library, to enable co-located implementation of both learning and classification tasks on only a small portion of an FPGA
 * **Implementation:** VHDL (RTL)
 * **Remarks:** Design space exploration with library modules shows simultaneous 2.39× area and 986× throughput improvements
 * [**Link to code**](https://github.com/eardbi/hd-vhdl-library)
-
-
-## Brain–Computer Interfaces from Electroencephalography (EEG) Signals 
-* **Project specification:** Binary classification of EEG error-related potentials for noninvasive brain–computer interfaces
-  * Input: 64 EEG electrodes
-  * Output: Binary classification (correct class vs. error class)
-* **Implementation:** Matlab
-* **Remarks:** ~3x less training data and preprocessing; no *domain expert knowledge* for electrode selection 
-* [**Link to code**](https://github.com/abbas-rahimi/HDC-EEG-ERP)
+* [link to paper](https://arxiv.org/abs/1807.08583)
 
 
 ## Motor-Imagery based Brain–Computer Interfaces
@@ -81,23 +78,36 @@ Hypervectors are high-dimensional (e.g., 10,000 bits), they are (pseudo)random w
   * Output: Multicalss classification (3 classes, and 4 classes)
 * **Implementation:** Python
 * **Remarks:** ~26x faster training time, and ~22x lower energy 
-* [**Link to code**](https://github.com/MHersche/HDembedding-BCI)
- 
+* [**Link to code and dataset**](https://github.com/MHersche/HDembedding-BCI)
+* [link to paper](https://arxiv.org/abs/1812.05705)
 
-## Tradeoffs in Choice of Density and Mapping Characteristics
-* **Project specification:** Discussing tradeoffs of selecting parameters of binary HD representations when applied to pattern recognition tasks. Particular design choices include density of representations and strategies for mapping data from the original representation.
+
+## Brain–Computer Interfaces using Electroencephalography (EEG) Signals 
+* **Project specification:** Binary classification of EEG error-related potentials for noninvasive brain–computer interfaces
+  * Input: 64 EEG electrodes
+  * Output: Binary classification (correct class vs. error class)
+* **Implementation:** Matlab
+* **Remarks:** ~3x less training data and preprocessing; no *domain expert knowledge* for electrode selection 
+* [**Link to code**](https://github.com/abbas-rahimi/HDC-EEG-ERP)
+* [link to paper](https://iis-people.ee.ethz.ch/~arahimi/papers/MONET17.pdf)
+
+
+## Tradeoffs in Choice of Density and Mapping Characteristics of Binary HD Computing
+* **Project specification:** Exploring tradeoffs of selecting parameters of binary HD representations when applied to pattern recognition tasks. Particular design choices include density of representations and strategies for mapping data from the original representation.
 * **Implementation:** Matlab
 * **Remarks:** For the considered pattern recognition tasks both sparse and dense approaches behave nearly identical. At the same time implementation peculiarities may favor one approach over another
 * [**Link to code**](https://github.com/denkle/Binary-Hyperdimensional-Computing-Trade-offs-in-Choice-of-Density-and-Mapping)
+* [link to paper](https://iis-people.ee.ethz.ch/~arahimi/papers/TNNLS18.pdf)
 
 
 ## European Language Recognition
-* **Project specification:** European language recognition from letter *n*-grams
+* **Project specification:** Designing an algorithm and memory-centric architecture for European language recognition from letter *n*-grams
   * Input: Streams of characters
   * Output: 21 classes as the European languages 
 * **Implementation:** Matlab and SystemVerilog (RTL)
 * **Remarks:** ~50% energy saving; 8.8x higher robustness in memory failures
 * [**Link to code**](https://github.com/abbas-rahimi/HDC-Language-Recognition)
+* [link to paper](https://iis-people.ee.ethz.ch/~arahimi/papers/ISLPED16.pdf)
 
 
 ## Learning Behavior Hierarchies via High-Dimensional Sensor Projection
@@ -105,3 +115,4 @@ Hypervectors are high-dimensional (e.g., 10,000 bits), they are (pseudo)random w
 * **Implementation:** C++
 * **Remarks:** Despite their extreme computational simplicity, these architectures can be easily “programmed” to perform subsumption hierarchies and other rule-like behaviors in the service of interesting tasks, in the absence of explicit if/then statements or other traditional symbolic constructs
 * [**Link to code**](https://github.com/simondlevy/vsarobot)
+* [link to paper](https://www.aaai.org/ocs/index.php/WS/AAAIW13/paper/download/7075/6578)
