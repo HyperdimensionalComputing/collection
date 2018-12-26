@@ -1,4 +1,14 @@
+
+
+<html>
+<head>
+  <title>Page Title</title>
+</head>
+
 <meta name='keywords' content='regex, regular expressions, regexp'>
+
+</html>
+
 
 # Collection of Hyperdimensional Computing Projects
 Here, we aim to provide a comprehensive collection of projects using hyperdimensional computing. Please let us know if you have any related project.
