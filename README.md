@@ -1,7 +1,7 @@
+<meta name='keywords' content='regex, regular expressions, regexp'>
+
 # Collection of Hyperdimensional Computing Projects
 Here, we aim to provide a comprehensive collection of projects using hyperdimensional computing. Please let us know if you have any related project.
-
-<meta name="keywords" content="hyperdimensional computing" >
 
 
 ## Introduction to Hyperdimensional Computing
