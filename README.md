@@ -7,7 +7,7 @@ The way the brain works suggests that rather than working with numbers that we a
 Hypervectors are high-dimensional (e.g., 10,000 bits), (pseudo)random with independent identically distributed components leading to holographic representation (i.e., not microcoded). Hypervectors can use various coding: dense or sparse, bipolar, binary, real, complex. They can be combined using arithmetic operations such as multiplication, addition, and permutation, and be compared for similarity using distance metrics.
 
 ### Useful Reading
-* [Hyperdimensional Computing: An Introduction to Computing in Distributed Representation with High-Dimensional Random Vectors](http://redwood.berkeley.edu/vs265/kanerva09-hyperdimensional.pdf) 
+* [Hyperdimensional Computing: An Introduction to Computing in Distributed Representation with High-Dimensional Random Vectors](https://link.springer.com/article/10.1007/s12559-009-9009-8) 
 * [High-dimensional Computing as a Nanoscalable Paradigm](https://iis-people.ee.ethz.ch/~arahimi/papers/TCAS17.pdf)
 * [Vector Symbolic Architectures Answer Jackendoff's Challenges for Cognitive Neuroscience](https://arxiv.org/abs/cs/0412059)
 * [Pentti Kanerva. 1988. Sparse Distributed Memory. MIT Press, Cambridge, MA, USA](https://mitpress.mit.edu/books/sparse-distributed-memory)
