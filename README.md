@@ -36,6 +36,16 @@ Hypervectors are high-dimensional (e.g., 10,000 bits), (pseudo)random with indep
 * [link to paper](https://www.research-collection.ethz.ch/handle/20.500.11850/307983)
 
 
+##  Multimodality Emotion Recognition with Physiological Signals
+* **Project specification:** Designing a fast learning algorithm to fuse physiological signals across different modalities such as GSR, ECG, and EEG for emotion recognition. The algorithm maps real-valued features to binary hypervectors using a random nonlinear function, and further encodes them over time, and fuses across three different modalities. 
+  * Input: 32 GSR features, 77 ECG features, and 105 EEG features
+  * Output: 2 parallel binary classifiers (high vs. low arousal, and positive vs. negative valence)
+* **Implementation:** Matlab
+* **Remarks:** Compared to GaussianNB, SVM, and XGB, our algorithm achieves higher classification accuracy for both valence (83.2% vs. 80.1%) and arousal (70.1% vs. 68.4%) using only 1/4 training data. It also achieves at least 5% higher averaged accuracy compared to all the other methods in any point along the learning curve.
+* [**Link to code**](https://github.com/enjui/HDC-MER)
+* [link to paper](https://www.research-collection.ethz.ch/handle/20.500.11850/315807)
+
+
 ##  An EMG Gesture Recognition System with Flexible High-Density Sensors 
 * **Project specification:** Design and development of an embedded system using a large-area, high-density EMG sensor array for robust hand gesture recognition
   * Input: 64 EMG electrodes
