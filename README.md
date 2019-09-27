@@ -75,6 +75,12 @@ Hypervectors are high-dimensional (e.g., 10,000 bits), (pseudo)random with indep
 * [**Demo**](https://www.youtube.com/watch?v=rjaw0LTqZZg)
 * [link to paper](https://iis-people.ee.ethz.ch/~arahimi/papers/DAC18.pdf)
 
+## CPU/GPU Hyperdimensional Computing Library
+* **Project specification:** A general library including all the operations of HD computing for efficent execution on CPU and GPU
+* **Implementation:** CPU/GPU
+* **Remarks:** Efficent execution on CPU (bit packing, cicular buffers, hamming distance LUT), and exploring various memory accesses (global, shared, thread-local) in GPUs with further optimizations
+* [**Link to code**] https://github.com/skurella/hdlib
+
 ## FPGA Optimizations of Dense Binary HD Computing
 * **Project specification:** Hardware techniques for optimizations of HD computing, in a synthesizable VHDL library, to enable co-located implementation of both learning and classification tasks on only a small portion of an FPGA
 * **Implementation:** VHDL (RTL)
