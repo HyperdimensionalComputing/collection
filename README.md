@@ -1,5 +1,5 @@
 # Collection of Hyperdimensional Computing Projects
-Here, we aim to provide a comprehensive collection of projects using hyperdimensional computing. Please let us know if you have any related project (abbas@iis.ee.ethz.ch).
+Here, we aim to provide a comprehensive collection of projects using hyperdimensional computing. Please let [us][mailto:abbas@iis.ee.ethz.ch] know if you have any related project.
 
 
 ## Introduction to Hyperdimensional Computing
