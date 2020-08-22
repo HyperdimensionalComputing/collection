@@ -16,6 +16,17 @@ Hypervectors are high-dimensional (e.g., 10,000 bits), (pseudo)random with indep
   * [Tony A. Plate's Ph.D. Thesis](https://www.researchgate.net/publication/2459882_Distributed_Representations_and_Nested_Compositional_Structure)
 
 
+
+## Integrating Event-based Dynamic Vision Sensors with Sparse Hyperdimensional Computing for Online Learning 
+* **Project specification:** Developing an embedding to compresses events generated across 346×260 differential pixels to a sparse 8160-bit vector that not only simplifies inference, but also enables online learning with the same memory footprint to solve regression tasks.
+  * Input: features extracted from event-based 346×260 differential pixels
+  * Output: Regression for estimating velocities (in x- and y-direction)
+* **Implementation:** Python and OpenMP (on an 8-core accelerator)
+* **Remarks:** 9.84× more energy-efficient and 6.25× faster than an optimized 9-layer perceptron with comparable accuracy; Online learning capability by using estimates and confidences of an initial model trained with only 25% of data, our method continuously updates the model for the remaining 75% of data, resulting in a close match with accuracy obtained with an oracle model on ground truth labels.
+* [**Link to code**](https://github.com/iis-eth-zurich/hd_dvs)
+* [link to paper](https://www.research-collection.ethz.ch/handle/20.500.11850/425534)
+
+
 ## One-shot Learning for Intracranial EEG (iEEG) Seizure Detection
 * **Project specification:** Desining an efficient algorithm with end-to-end binary operations for both learning and classification of human epileptic seizures from intracranial electroencephalography (iEEG)
   * Input: 36 to 100 implanted iEEG electrodes
