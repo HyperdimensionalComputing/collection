@@ -144,3 +144,11 @@ Hypervectors are high-dimensional (e.g., 10,000 bits), (pseudo)random with indep
 * **Remarks:** Despite their extreme computational simplicity, these architectures can be easily “programmed” to perform subsumption hierarchies and other rule-like behaviors in the service of interesting tasks, in the absence of explicit if/then statements or other traditional symbolic constructs
 * [**Link to code**](https://github.com/simondlevy/vsarobot)
 * [link to paper](https://www.aaai.org/ocs/index.php/WS/AAAIW13/paper/download/7075/6578)
+
+## A non-linear notation for hyperdimensional computing
+* **Project specification:** A non-linear 2-dimension encoding for representing an N-dimensional data structure well suited for the representation of hyperdimensional programs
+* **Implementations:** ANTLR, Clojure, C++, Haskell, Javascript, Python, TypeScript
+* **Remarks:** A novel non-linear way to encode data structures that relies entirely on a token's position in 2-D space for parsing.
+* [**Link to code**](https://github.com/treenotation)
+* [**Demo**](https://jtree.treenotation.org/designer/)
+* [link to paper](https://arxiv.org/abs/1703.01192)
