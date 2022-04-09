@@ -15,6 +15,14 @@ Hypervectors are high-dimensional (e.g., 10,000 bits), (pseudo)random with indep
 * [Tony A. Plate. 2003. Holographic Reduced Representation: Distributed Representation for Cognitive Structures. CSLI Publications, Stanford, CA, USA](https://dl.acm.org/citation.cfm?id=862031) 
   * [Tony A. Plate's Ph.D. Thesis](https://www.researchgate.net/publication/2459882_Distributed_Representations_and_Nested_Compositional_Structure)
 
+## Constrained Few-shot Class-incremental Learning 
+* **Project specification:** Developing a hybrid learner (deep neural nets + hyperdimensional computing) to embed natural images to quasi-orthogonal d-dimensional vectors where d <= 512. The used application is continual learning from a few training examples.
+  * Input: Raw pixels from natural images (CIFAR-100 and miniImageNet datasets) as well as handwritten characters from 50 different alphabets (Omniglot)
+  * Output: Classification up to 1623 classes
+* **Implementation:** Pytorch
+* **Remarks:**  Outperforms the baselines with higher accuracy and  remarkable compression. It also scales up to the largest problem size ever tried in this few-shot setting by learning 423 novel classes on top of 1200 base classes with less than 1.6% accuracy drop.
+* [**Link to code**](https://github.com/IBM/constrained-FSCIL)
+* [link to paper](https://arxiv.org/pdf/2203.16588.pdf)
 
 
 ## Integrating Event-based Dynamic Vision Sensors with Sparse Hyperdimensional Computing for Online Learning 
